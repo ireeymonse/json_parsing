@@ -15,7 +15,7 @@ class BaseObject: Decodable {
       var type: String
       var name: String
       var color: String
-      var descripton: String
+      var description: String
    }
    
    /// Image that most objects share

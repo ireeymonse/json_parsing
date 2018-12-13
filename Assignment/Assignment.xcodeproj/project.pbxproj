@@ -18,6 +18,7 @@
 		108D740C21C21C910086111A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D740B21C21C910086111A /* Pet.swift */; };
 		108D740E21C221E80086111A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D740D21C221E80086111A /* Car.swift */; };
 		108D741021C222C10086111A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D740F21C222C10086111A /* Product.swift */; };
+		108D741221C22D9D0086111A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D741121C22D9D0086111A /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		108D740B21C21C910086111A /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		108D740D21C221E80086111A /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		108D740F21C222C10086111A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		108D741121C22D9D0086111A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				108D740B21C21C910086111A /* Pet.swift */,
 				108D740D21C221E80086111A /* Car.swift */,
 				108D740F21C222C10086111A /* Product.swift */,
+				108D741121C22D9D0086111A /* Person.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				108D73E721C20A440086111A /* ViewController.swift in Sources */,
 				108D740C21C21C910086111A /* Pet.swift in Sources */,
 				108D740E21C221E80086111A /* Car.swift in Sources */,
+				108D741221C22D9D0086111A /* Person.swift in Sources */,
 				108D740A21C2120B0086111A /* BaseObject.swift in Sources */,
 				108D73E521C20A440086111A /* AppDelegate.swift in Sources */,
 				108D741021C222C10086111A /* Product.swift in Sources */,

@@ -21,6 +21,6 @@ class Pet: BaseObject {
       age = try int(fromStringIn: container, forKey: .age)
       favoriteToy = try container.decode(String.self, forKey: .favoriteToy)
       
-      try super.init(from: try container.superDecoder())
+      try super.init(from: decoder)
    }
 }

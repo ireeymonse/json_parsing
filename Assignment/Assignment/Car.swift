@@ -19,10 +19,10 @@ class Car: BaseObject {
    
    required init(from decoder: Decoder) throws {
       let container = try decoder.container(keyedBy: CodingKeys.self)
-      doors = try container.decode(Int.self, forKey: .doors)
+      doors = try int(fromStringIn: container, forKey: .doors)
       price = try container.decode(String.self, forKey: .price)
       milage = try int(fromStringIn: container, forKey: .milage)
       
-      try super.init(from: try container.superDecoder())
+      try super.init(from: decoder)
    }
 }

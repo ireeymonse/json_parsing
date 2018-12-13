@@ -9,10 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
+   var person: Person?
 
    override func viewDidLoad() {
       super.viewDidLoad()
-      // Do any additional setup after loading the view, typically from a nib.
+      
+      if let path = Bundle.main.url(forResource: "data", withExtension: "json"),
+         let string = try? String(contentsOf: path),
+         let data = string.data(using: .utf8)
+      {
+//         print(string.replacingOccurrences(of: "^\\s*", with: "\\\\n", options: .regularExpression))
+         do {
+            let decoder = JSONDecoder()
+            let person = try JSONDecoder().decode(Person.self, from: data)
+            print(person)
+         } catch {
+            print(error)
+         }
+      }
    }
 
 }

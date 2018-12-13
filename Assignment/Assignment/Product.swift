@@ -32,7 +32,7 @@ class Product: BaseObject {
       }
       purchaseDate = date
       
-      try super.init(from: try container.superDecoder())
+      try super.init(from: decoder)
    }
 }
 
